@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listed</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="image/avocado-5928508_640.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+<header>
+    <div class="nav container">
+        <!--Logo -->
+        <a href="index.html" class="logo">
+            List<span>ed</span>
+        </a>
+        <!--User -->
+        <a href="#" class="user">
+            <img src="image/Leonardo_DiCaprio_2014.jpg" alt="">
+        </a>
+        <!--NavBar -->
+        <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+                <i class='bx bx-home'></i>
+                <span class="nav-link-title">Ana Sayfa</span>
+            </a>
+            <a href="listem.html" class="nav-link">
+                <i class='bx bx-list-ul'></i>
+                <span class="nav-link-title">Listelerim</span>
+            </a>
+            <a href="#home" class="nav-link">
+                <i class='bx bx-phone'></i>
+                <span class="nav-link-title">İletişim</span>
+            </a>
+        </div>
+    </div>
+</header>
+<!--Home -->
+<section class="home container" id="home">
+ <img src="image/film.jpg" alt="" class="home-img">
+ <div class="home-text">
+    <h1 class="home-title">Şimdi listelerini oluştur.</h1>
+    <p>"İzlediğin filmleri, bitirdiğin dizileri ve okuduğun kitapları tek bir yerde topla ve unutma! Hangi içerikleri keşfettiğini hatırla, favorilerini kaydet ve izleme/okuma alışkanlıklarını düzenli tut. Arkadaşlarınla listelerini paylaş, yeni öneriler al ve aynı filmi veya diziyi tekrar izlemekten kaçın. Eğlence arşivin her zaman elinin altında olsun, neyi sevdiğini ve neleri keşfetmek istediğini kolayca takip et!"</p>
+ </div>
+</section>
+<!--Home End -->
+
+<!--Popular -->
+<section class="popular container" id="popular">
+    <div class="heading">
+        <h2 class="heading title">Popüler Filmler</h2>
+    </div>
+
+    <div class="popular-content">
+       <div class="popular-content-box">
+
+       </div>
+       <a  class="switchLeft sliderButton" onclick="sliderScrollLeft()"><</a>
+         <a class="switchRight sliderButton" onclick="sliderScrollRight()" >></a>
+    </div>
+</section>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+    
+</body>
+</html>
